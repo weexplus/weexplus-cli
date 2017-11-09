@@ -1,0 +1,40 @@
+{
+  "name": "weexplus-cli",
+  "version": "0.0.1",
+  "description": "A cli to to generate weexplus project.",
+  "keywords": [
+    "weex",
+    "cli",
+    "android",
+    "ios",
+    "web"
+  ],
+  "bin": {
+    "wxp": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erguotou <erguotou525@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weexplus/weexplus-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com:weexplus/weexplus-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "download-git-repo": "^1.0.1",
+    "inquirer": "^3.3.0",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
