@@ -36,7 +36,7 @@ program
 function startClone (targetDir) {
   fs.mkdirSync(targetDir)
   clone(targetDir).then(() => {
-    console.log('模板下载完成')
+    console.log('项目已生成')
   }).catch(console.error)
 }
 
