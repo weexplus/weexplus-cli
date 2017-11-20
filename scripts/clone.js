@@ -1,7 +1,7 @@
 const download = require('download-git-repo')
 const ora = require('ora')
 
-const TEMPLATE_REPO = 'tj/commander.js'
+const TEMPLATE_REPO = 'weexplus/boilerplate'
 
 module.exports = function clone (targetDir) {
   return new Promise(function (resolve, reject) {
